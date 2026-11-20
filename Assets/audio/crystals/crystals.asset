@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-544371877091243757
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_menu_button_01_{-544371877091243757}
+  m_AudioClip: {fileID: 8300000, guid: 84c55b753717eb34fba5645d61810df3, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5300145233436742335
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_menu_button_03_{5300145233436742335}
+  m_AudioClip: {fileID: 8300000, guid: 45154469db5fdde43bce5983e7bb5b3c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6041167032666283993
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_menu_button_04_{6041167032666283993}
+  m_AudioClip: {fileID: 8300000, guid: 184f0d8828b93a842823e8ee9e39e1d1, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: crystals
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: -18.333328, y: 15}
+  m_PitchRandomizationRange: {x: -237.50003, y: 199.99995}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -544371877091243757}
+  - {fileID: 7461858101684643238}
+  - {fileID: 5300145233436742335}
+  - {fileID: 6041167032666283993}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &7461858101684643238
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_menu_button_02_{7461858101684643238}
+  m_AudioClip: {fileID: 8300000, guid: 285618bf09e19db46a57981312c4000a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
